@@ -31,7 +31,7 @@ class Home extends Component{
         
     }
     changeSearchInput=(event)=>{
-        this.setState({search:event.target.value})
+        this.setState({search:event.target.value.toLowerCase()})
     }
 
     
